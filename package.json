@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "showreel",
   "version": "1.0.0",
   "description": "My Remotion video",
@@ -6,7 +7,9 @@
     "start": "remotion preview",
     "build": "remotion render MyComp out/video.mp4",
     "upgrade": "remotion upgrade",
-    "test": "eslint src --ext ts,tsx,js,jsx && tsc"
+    "test": "eslint src --ext ts,tsx,js,jsx && tsc",
+    "fetch": "node scripts/index.js"
+    
   },
   "repository": {},
   "license": "UNLICENSED",
